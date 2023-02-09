@@ -98,7 +98,7 @@ func getStorageId() {
 			storageId = append(storageId, vId)
 		}
 	}
-	fmt.Println("打印未设置配额仓库id:", storageId)
+	fmt.Println("打印设置配额仓库id:", storageId)
 }
 
 // 获取仓库信息
